@@ -5,7 +5,7 @@ tmp/
 _doc
 .sass-cache
 doc
-src
+dist
 src/img
 yarn.lock
 package-lock.json

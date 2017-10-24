@@ -1,0 +1,27 @@
+$fontHei= "arial","微軟正黑體"
+
+$rwdS= 640px
+$rwdM= 768px
+$rwd990= 990px
+$rwdL= 1024px
+$rwdX= 1440px
+$rwdXL= 1920px
+
+
+
+lessThan($value) 
+    @media only screen and (max-width: $value) 
+        {block}
+
+moreThan($value) 
+    @media only screen and (min-width: $value + 1)
+        {block}
+
+getVW990($value)
+    ($value / 990) * 100vw;
+
+getVW1920($value)
+    ($value / 1920) * 100vw;
+    
+getVW($value)
+    ($value / 640) * 100vw;
