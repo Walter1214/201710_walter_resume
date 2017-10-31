@@ -79,7 +79,10 @@ h1
         span 天鏡科技股份有限公司主要技術能力為 Web/APP 功能性平台開發。主要產品為果果 Cirple 智慧社區、策略無限 Stranity 期貨自動化交易系統，第一年負責新竹財團法人工業技術研究院(工研院)的外包案，網頁與智慧家電例：電視、冷氣、電燈…等做遠端控制達成節約能源的目標，目前網頁給澎湖住宅使用中。第二年負責智慧社區的警衛app，針對收發包裏、巡邏定位、登入系統與離線機制四個功能製作。
     h1 技能
     .skill
-      span Html、Pug、CSS、SCSS、Styuls、Javascript ES5、Vue、Gulp
+      span Html、Pug、CSS、SCSS、Styuls、Javascript ES5、Vue、Gulp、JQuery
+    h1 自傳
+    .skill
+      span 出生於南投，家裡本業是電器行，大學畢業於台中霧峰朝陽科技大學，於花蓮空運基地服役，碩士畢業於新莊輔仁大學，碩士畢業後就業於台北，工作內容大多是軟體工程師與前端工程師，希望轉換跑道尋找自己的道路與興趣，喜歡吸收新奇的事物，增廣見聞與開拓想法。
     h1 作品
     .product
       h2 Maybelline
@@ -103,7 +106,7 @@ h1
       h2 LEXUS
       .p_wrapper
         img(src="~img/lexus.jpg")
-        span 平台官方網頁，新增兩個主題預約試乘與售後服務。
+        span 平台官方RWD網頁，新增兩個主題預約試乘與售後服務。
           | 
           a(href="https://www.lexus.com.tw/service.aspx" target="_blank") 官網連結
       h2 Heineken

@@ -45,6 +45,7 @@
 		.information
 			span.blod 朝陽科技大學-資訊工程系 畢
 			span.blod 輔仁大學-資訊工程系 碩 畢
+			span.blod 兵役 役畢
 
   
 </template>

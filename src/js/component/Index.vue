@@ -1,12 +1,17 @@
-<style scoped>
+<style scoped lang="stylus">
+@require '../../css/base/_walter.styl'
+a
+  display block
 
 </style>
 
 <template lang="pug">
 
 .index-root
-  // Resume
-  
+  router-link(to="/resume") Resume
+  router-link(to="/window") GoWindow
+  router-link(to="/youtube") GoYoutubeVideo
+  router-link(to="/facebook") GoFacebookVideo
 </template>
 
 <script>
