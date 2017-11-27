@@ -25,7 +25,7 @@
 <script>
 import { mapActions } from 'vuex';
 import Basic from '@/component/resume/Basic';
-import History from '@/component/resume/History';
+import Historyy from '@/component/resume/History';
 export default{
   data() {
     return {

@@ -3,8 +3,8 @@ import Vue from 'vue';
 import Index from './component/Index.vue';
 import Resume from './component/Resume.vue';
 import Window from './component/Window.vue';
-import YoutubeVideo from './component/YoutubeVideo.vue';
-import FacebookVideo from './component/FacebookVideo.vue';
+import Youtube from './component/Youtube.vue';
+import Facebook from './component/Facebook.vue';
 
 Vue.use(VueRouter);
 const router = new VueRouter({
@@ -14,8 +14,8 @@ const router = new VueRouter({
     { path: '/index', component: Index },
     { path: '/resume', component: Resume },
     { path: '/window', component: Window },
-    { path: '/youtube', component: YoutubeVideo },
-    { path: '/facebook', component: FacebookVideo },
+    { path: '/youtube', component: Youtube },
+    { path: '/facebook', component: Facebook },
   ],
 });
 /* router.beforeEach((to, from, next) => {

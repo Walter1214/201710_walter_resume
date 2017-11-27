@@ -1,4 +1,4 @@
-/* eslint no-console: 0, no-bitwise: 0, no-mixed-operators: 0 */
+/* eslint no-console: 0, no-bitwise: 0, no-mixed-operators: 0, function-paren-newline: ["error", "never"] */
 const gulp = require('gulp');
 const $ = require('gulp-load-plugins')();
 const gutil = require('gulp-util');
@@ -87,8 +87,7 @@ gulp.task('webpack-build', (cb) => {
   logProduction();
   process.env.NODE_ENV = 'production';
   const config = require('./webpack.config');
-  config.plugins.push(
-    new webpack.optimize.UglifyJsPlugin(),
+  config.plugins.push(new webpack.optimize.UglifyJsPlugin(),
     new webpack.LoaderOptionsPlugin({
       test: /\.(css|scss|styl)$/,
       minimize: true,

@@ -10,8 +10,8 @@ a
 .index-root
   router-link(to="/resume") Resume
   router-link(to="/window") GoWindow
-  router-link(to="/youtube") GoYoutubeVideo
-  router-link(to="/facebook") GoFacebookVideo
+  router-link(to="/youtube") GoYoutube
+  router-link(to="/facebook") GoFacebook
 </template>
 
 <script>
